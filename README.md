@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Install all dependencies with **bundle install**
+2. Start the server with **rails server**
+3. Start the redis server with **redis-server**
 
-Things you may want to cover:
+## Make API request
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- **api/v1/passengers?metric=(starship|starships|vehicle|vehicles)**
+- **api/v1/cost_in_credits?metric=(starship|starships|vehicle|vehicles)**
+- **api/v1/cargo_capacity?metric=(starship|starships|vehicle|vehicles)**
+- **api/v1/appeared_in_same_films?film_number=Number**
